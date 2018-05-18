@@ -1,0 +1,14 @@
+---
+Name: update_note
+After: 'framework/*','cms/*'
+---
+
+#add to Page or SiteTree
+Page:
+  extensions:
+    - UpdateNoteExtension
+
+#add to any DataObject
+MyDataObject:
+  extensions:
+    - UpdateNoteExtension
