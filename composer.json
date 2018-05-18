@@ -1,0 +1,30 @@
+{
+    "name": "sunnysideup/update_note",
+    "type": "silverstripe-module",
+    "description": "Add updates notes to your editing effort in the Silverstripe CMS.",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "update",
+        "edit",
+        "accountability",
+        "record keeping",
+        "log"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.6",
+        "silverstripe/cms": "~3.6"
+    },
+    "extra": {
+        "installer-name": "update_note"
+    }
+}
