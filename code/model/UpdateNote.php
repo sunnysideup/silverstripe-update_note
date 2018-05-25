@@ -3,7 +3,6 @@
 
 class UpdateNote extends DataObject
 {
-
     private static $fields_to_remove_in_the_cms_fields = [];
 
     private static $singular_name = 'Update Note';
